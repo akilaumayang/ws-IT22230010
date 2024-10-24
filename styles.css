@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ecece5;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #ddd;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Vulnerabilities Section */
+.vulnerabilities {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.vulnerability-box {
+    display: inline-block;
+    width: 200px; 
+    height: 140px; 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #011002;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    vertical-align: top;
+}
+
+.vulnerability-box:hover {
+    background-color: #f3f037;
+}
+
+.vulnerability-box h3 {
+    font-size: 18px;
+    text-align: center; 
+}
